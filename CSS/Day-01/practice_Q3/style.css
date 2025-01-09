@@ -1,0 +1,53 @@
+.login{
+    border: 2px solid black;
+    width: 500px;
+    height: 250px;
+    padding: 50px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+    box-shadow: 4px 10px black;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+button{
+    margin-top: 20px;
+    padding: 0px 30px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
+
+input{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    background-color: azure;
+    height: 600px;
+    width: 70%;
+    margin: 50px auto;
+    box-shadow: 3px 5px black;
+}

@@ -1,0 +1,32 @@
+div{
+    text-align: justify;
+    height: 200px;
+    width: 500px;
+    background-color: beige;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    /* border-left-color: purple; */
+    /* border-left-style: dashed; */
+    border-radius: 10px;
+}
+
+h1{
+    border: 2px dashed purple;
+    margin: 0px;
+}
+
+button{
+    font-weight: bold;
+    background-color: yellowgreen;
+    color: black;
+    padding: 5px 20px 5px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+}

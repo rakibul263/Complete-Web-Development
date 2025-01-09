@@ -1,0 +1,8 @@
+h2{
+    display: inline;
+    background-color: bisque;
+}
+span{
+    display: block;
+    background-color: rgba(255, 0, 0, 0.2);
+}

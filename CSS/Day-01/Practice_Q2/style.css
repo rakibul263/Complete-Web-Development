@@ -1,0 +1,21 @@
+h1{
+    text-align: right;
+    /* border: black 2px solid; */
+    /* width: 50%; */
+    text-decoration: blue doverline;
+    letter-spacing: 10px;
+}
+h2{
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    /* width: 50%; */
+    line-height: 2;
+}
+h2{
+    font-weight: 600;
+}
+h4{
+    text-decoration: double blue overline;
+}

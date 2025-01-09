@@ -1,0 +1,12 @@
+.banner_container{
+    width: 80vh;
+    background-color: gray;
+}
+img{
+    width:400px;
+    height: 400px;
+}
+.contact_us{
+    background-color: azure;
+    border-radius: 20px;
+}

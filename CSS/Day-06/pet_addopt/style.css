@@ -1,0 +1,55 @@
+/* .card{
+    width:400px;
+    height: 1000px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 50px 200px 150px 200px;
+    text-align: justify;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: azure;
+    box-shadow: 2px 4px black;
+}
+img{
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+}
+h2{
+    color: orange;
+}
+span{
+    color: chocolate;
+}
+h2, h1{
+    text-align: center;
+} */
+
+.card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    background-color: azure;
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width: 412px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
+h2{
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}

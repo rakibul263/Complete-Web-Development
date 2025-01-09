@@ -1,0 +1,19 @@
+#container{
+    height: 50px;
+    width: 900px;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    background-color: pink;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.option{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 24px;
+    line-height: 50px;
+}

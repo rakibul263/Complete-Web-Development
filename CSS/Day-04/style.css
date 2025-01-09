@@ -1,0 +1,10 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    transition: 3s;
+}
+div:hover{
+    background-color: blueviolet;
+    border-radius: 50%;
+}

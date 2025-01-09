@@ -1,0 +1,60 @@
+#button_link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+button{
+    background-color: #4b23a8;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+header{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-weight: bold;
+    color: #4b23a8;
+}
+.iner_class{
+    height: 400px;
+    width: 400px;
+    justify-content: space-between;
+    text-decoration: justify;
+}
+.user_photo{
+    height: 400px;
+    width: 100%;
+    box-shadow: 4px 6px #4b23a8;
+    transition: 2s;
+}
+.user_photo:hover{
+    transform: scale(1.1);
+}
+.icon{
+    text-decoration: none;
+    color: #4b23a8;
+    font-size: 25px;
+    margin-right: 30px;
+}
+.icon:hover{
+    color: #250474;
+}
+.carousel{
+    border: 2px solid #4b23a8;
+    width: 1150px;
+    border-radius: 20px;
+    background-color: azure;
+    box-shadow: 2px 4px #4b23a8;
+}
+
+.image_block{
+    height: 350px;
+    width: 500px;
+}
+#carouselExampleSlidesOnly{
+    transition: 2s;
+}
+#carouselExampleSlidesOnly:hover{
+    transform: scale(1.04);
+}

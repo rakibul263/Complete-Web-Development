@@ -1,0 +1,14 @@
+h1{
+    color:red;
+    background-color: gray;
+}
+
+p{
+    color: rgb(82, 116, 116);
+    background-color: bisque;
+}
+
+button{
+    color: blue;
+    background-color: yellowgreen;
+}
