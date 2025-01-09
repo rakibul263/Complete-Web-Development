@@ -2,8 +2,8 @@
 let light = "red";
 if(light === "red"){
     console.log("Stop the car.");
-}else if(light === "yellow"){
+}if(light === "yellow"){
     console.log("Ready to move.");
-}else if(light === "green"){
+}if(light === "green"){
     console.log("Move the car.");
 }
