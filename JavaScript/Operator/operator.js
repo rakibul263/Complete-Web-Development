@@ -44,3 +44,13 @@ console.log("Comparison for non-number: ");
 console.log('a' > 'b'); //false
 console.log('a' < 'b'); //true
 console.log('a' == 'b'); //false
+
+//Logical Operator
+console.log("Logical Operator: ");
+let p = 10;
+let q = 20;
+let r = 30;
+console.log(p < q && q < r); //true
+console.log(p < q && q > r); //false
+console.log(p < q || q > r); //true
+console.log(p > q || q > r); //false
