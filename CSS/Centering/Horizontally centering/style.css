@@ -1,0 +1,18 @@
+h1{
+    width: 200px;
+    text-align: center;
+
+    margin:0 auto;
+}
+.center{
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
