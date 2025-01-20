@@ -2,6 +2,12 @@ body{
     font-family: Arial;
 }
 
+.green{
+    color:green;
+    background-color: gray;
+    border: 1px solid black;
+}
+
 #mainImg{
     width: 35%;
     height: 400px;
@@ -24,6 +30,6 @@ body{
     margin-right: 1rem;
 }
 
-#descriotion{
+#description{
     background-color: antiquewhite;
 }
