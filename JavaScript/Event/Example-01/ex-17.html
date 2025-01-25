@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded Content</title>
+  <style>
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Embedded Content</h1>
+
+  <div class="iframe-container">
+    <iframe 
+      src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Eiffel+Tower,Paris,France"
+      title="Google Map"
+      aria-label="Map showing the location of the Eiffel Tower in Paris, France"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="iframe-container">
+    <iframe 
+      src="https://youtu.be/_uqRyE6U9-o?si=guH45e8JNiiCaXVn"
+      title="YouTube Video"
+      aria-label="YouTube video demonstrating web development"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="iframe-container">
+    <iframe 
+      src="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw"
+      title="Twitter feed"
+      aria-label="Twitter feed from TwitterDev"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>

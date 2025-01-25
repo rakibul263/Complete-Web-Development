@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        .card {
+            border: 2px solid #3498db;
+            padding: 15px;
+            margin: 10px;
+            box-sizing: border-box;
+            transition: border 0.3s ease;
+        }
+        @media (max-width: 600px) {
+        .card {
+            border-style: dashed;
+        }
+}
+    </style>
 </head>
 <body>
-    <!-- <button onclick="console.log('You clicked me'); console.log('Rakibul Hasan')">Click Me</button> -->
-    <button>Click Me</button>
-
-
-    <script src="app.js"></script>
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a responsive card with padding, margin, and a border that changes on small screens.</p>
+      </div>
 </body>
 </html>
