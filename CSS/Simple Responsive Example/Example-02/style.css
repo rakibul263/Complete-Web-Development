@@ -1,0 +1,46 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    height: 400px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.col{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+}
+.col2{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+.squre-col{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 100%;
+}
+
+@media screen and (max-width: 576px){
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .col{
+        flex-direction: row;
+    }
+    .col2{
+        flex-direction: row;
+    }
+    .squre-col{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
