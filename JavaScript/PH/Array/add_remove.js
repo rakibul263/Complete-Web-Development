@@ -23,3 +23,17 @@ console.log(typeof(ans));
 console.log("After adding the value last of the array = "+ names);
 // console it using datatype
 console.log("After adding the value last of the array = ", names);
+
+
+
+console.log();
+console.log();
+console.log();
+
+
+// add and remove the value start of the array
+console.log(names);
+names.shift();
+console.log(names);
+names.unshift("Raha");
+console.log(""+names);
