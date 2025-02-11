@@ -9,9 +9,18 @@ addEvent.addEventListener("click", (event)=>{
     const p = document.createElement('p');
 
     p.innerText = innerPart;
+    p.classList.add("child");
 
     container.appendChild(p);
 
     document.getElementById("textPart").value = "";
-    
+
+    const allComment = document.getElementsByClassName("child");
+
+    for (const element of allComment){
+        // console.log(element);
+        element.addEventListener("click",(event)=>{
+            event.target.parentNode.removeChild(element);
+        });
+    }
 })
