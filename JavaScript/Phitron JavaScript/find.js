@@ -5,10 +5,15 @@ const products = [
     {id:4, name:"Black Bary", description:"This is Black Bary", price:300, color:"gray"},
 ]
 
-for (let i = 0; i < products.length; i++){
+/* for (let i = 0; i < products.length; i++){
     // console.log(products[i]);
     const element = products[i];
     if(element.id == 3){
         console.log(element);
     }
-}
+} */
+
+
+const result = products.find(product => product.id == 3);
+
+console.log(result);
