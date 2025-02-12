@@ -23,4 +23,33 @@ addEvent.addEventListener("click", (event)=>{
             event.target.parentNode.removeChild(element);
         });
     }
+});
+
+// Api
+
+
+fetch("https://jsonplaceholder.typicode.com/users")
+.then(res=>res.json())
+.then(data=>{
+    displayData(data)
 })
+.catch((err) => {
+    console.log(err);
+});
+
+const displayData = (userData) => {
+    const container = document.getElementById("userData-container");
+
+    userData.forEach((user)=>{
+        const div = document.createElement("div");
+        div.classList.add("user");
+
+        div.innerHTML = `
+            <h2>Title</h2>
+            <p>Description</p>
+            <button>Button</button>
+        `;
+        // container.appendChild(div);
+        container.appendChild(div);
+    });
+};

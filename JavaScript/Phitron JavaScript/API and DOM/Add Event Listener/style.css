@@ -2,6 +2,7 @@ input{
     padding: 10px;
     width: 40%;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 button{
@@ -9,4 +10,21 @@ button{
     font-weight: bold;
     width: 10%;
     cursor:pointer;
+}
+
+.user{
+    padding: 5px;
+    border: 1px solid black;
+    width: 30%;
+    height: 200px;
+    margin: 5px;
+}
+
+.user button{
+    padding: 2px;
+}
+
+#userData-container{
+    display: flex;
+    flex-wrap: wrap;
 }
