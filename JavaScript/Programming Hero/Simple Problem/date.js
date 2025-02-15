@@ -15,3 +15,20 @@ console.log(way04);
 const date = new Date (Date.UTC(2021, 5, 11));
 console.log();
 console.log(date.toUTCString());
+
+
+
+// Date.UTC
+
+const d1 = new Date(Date.UTC(78));
+console.log(d1);
+
+//1978 feb
+const d2 = new Date(Date.UTC(78, 1));
+console.log(d2.toUTCString());
+
+//1978 feb 21
+const d3 = new Date(Date.UTC(78, 1, 21)); 
+
+// console.log(d3.toUTCString());
+console.log(d3.toDateString());
