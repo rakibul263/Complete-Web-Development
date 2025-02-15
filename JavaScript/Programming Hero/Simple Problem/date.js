@@ -11,3 +11,7 @@ console.log(way03);
 
 const way04 = new Date(2020, 11, 23);
 console.log(way04);
+
+const date = new Date (Date.UTC(2021, 5, 11));
+console.log();
+console.log(date.toUTCString());
