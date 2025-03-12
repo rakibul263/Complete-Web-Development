@@ -1,4 +1,4 @@
-const h1 = document.querySelector('h1');
+const h1 = document.querySelector("h1");
 /*
 setTimeout(()=>{
     h1.style.color = 'red';
@@ -17,7 +17,7 @@ setTimeout(()=>{
 
  */
 
-function colorChanged(color, delay){
+/* function colorChanged(color, delay){
     setTimeout(()=>{
         h1.style.color = color;
     }, delay)
@@ -26,3 +26,33 @@ function colorChanged(color, delay){
 colorChanged('red', 1000);
 colorChanged('green', 2000);
 colorChanged('blue', 2000);
+ */
+
+function colorChanged(color, delay) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      h1.style.color = color;
+      resolve('color changed')
+    },delay);
+  });
+}
+
+colorChanged("red", 1000)
+  .then((result) => {
+    console.log("color changed to red");
+    console.log(result);
+    return colorChanged("green", 1000);
+  })
+  .then((result) => {
+    console.log("color changed to green");
+    console.log(result);
+    return colorChanged('blue', 1000);
+  })
+  .then((result) => {
+    console.log("color changed to blue");
+    console.log(result);
+  })
+
+  .catch(() => {
+    console.log("color cannot changed");
+  });
