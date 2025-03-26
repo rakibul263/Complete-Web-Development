@@ -178,7 +178,7 @@ let btn = document.getElementById('factsBtn');
 btn.addEventListener('click', async()=>{
     let data = await getFacts();
     document.getElementById('fact').innerText = data;
-    console.log(data);
+    // console.log(data);
 })
 
 async function getFacts(){
@@ -208,3 +208,20 @@ const getDogImage = async() =>{
         console.log('error-', error);
     }
 }
+
+
+let url3 = "http://universities.hipolabs.com";
+
+let country = 'india';
+
+async function getColleges() {
+    try{
+        let response = await axios.get(url3);
+        console.log(response.data);
+    }
+    catch(error){
+        console.log('error - ', error);
+    }
+}
+
+getColleges();
