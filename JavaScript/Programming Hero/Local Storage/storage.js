@@ -19,7 +19,7 @@
 // const data = localStorage.getItem("shuvo");
 
 
-const handleAddToCard = ()=>{
+/* const handleAddToCard = ()=>{
     const productName = document.getElementById('product-name');
     const productQuentity = document.getElementById('product-quantity')
     const name =productName.value;
@@ -59,4 +59,20 @@ const handelSetToLocalStorage = (productName, quantity) => {
     const cartString = JSON.stringify(cart);
 
     localStorage.setItem("cart", cartString);
+} */
+
+
+document.getElementById('submitBtn').addEventListener('click', ()=>{
+    const id = document.getElementById('idField').value;
+    const email = document.getElementById('email').value;
+
+    const data = {id, email};
+    localStorage.setItem(id, JSON.stringify(data));
+})
+
+const storedItem = localStorage.getItem("121");
+console.log(JSON.parse(storedItem));
+
+const storageClear = () =>{
+    localStorage.clear();
 }
