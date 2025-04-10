@@ -22,4 +22,4 @@ const addItemToCardLocalStorage = (id) => {
     saveCardToLocalStorage(newCart)
 }
 
-export {getCardFromLocalStorage, addItemToCardLocalStorage}
+export {getCardFromLocalStorage as getStoredCart, addItemToCardLocalStorage as addToStoredCart}
