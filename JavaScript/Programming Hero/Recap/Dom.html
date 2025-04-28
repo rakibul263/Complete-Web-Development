@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <button onclick="alert('hello World')">Click Me</button>
+
+    <button onclick="makeRed()">Make red</button>
+
+    <button onclick="makeBlue()">Make Blue</button>
+
+    <button id="make-orange">Make Orange</button>
+
+    <br><br><br>
+    <input id="name" type="text" placeholder="Enter Your Name">
+    <input id="id" type="text" placeholder="Enter Your Student Id">
+    <button onclick="handelAddToStorage()">Submit</button>
+
+    <script>
+        function makeRed(){
+            document.body.style.backgroundColor = 'red';
+        }
+        function makeBlue(){
+            document.body.style.backgroundColor = 'blue';
+        }
+
+        const makeOrange = document.getElementById('make-orange');
+        makeOrange.addEventListener('click', function(){
+            document.body.style.backgroundColor = 'orange';
+        })
+    </script>
+    <script src="dom.js"></script>
+    <!-- <script src="template_string.js"></script> -->
+
+</body>
+</html>
