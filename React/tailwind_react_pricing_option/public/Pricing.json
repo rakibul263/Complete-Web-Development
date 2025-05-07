@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Basic Plan",
+      "price": 29,
+      "billingCycle": "monthly",
+      "description": "Perfect for beginners who need access to essential equipment and gym space.",
+      "features": [
+        "Access to gym floor (weights & cardio)",
+        "Locker room access",
+        "One fitness consultation",
+        "Open 5AM – 10PM access"
+      ]
+    },
+    {
+      "name": "Standard Plan",
+      "price": 49,
+      "billingCycle": "monthly",
+      "description": "Ideal for regular gym-goers looking for classes and additional support.",
+      "popular": true,
+      "features": [
+        "Everything in Basic Plan",
+        "Unlimited group classes (yoga, HIIT, spinning)",
+        "2 personal training sessions/month",
+        "Sauna & steam room access",
+        "Guest pass (1 per month)"
+      ]
+    },
+    {
+      "name": "Premium Plan",
+      "price": 79,
+      "billingCycle": "monthly",
+      "description": "For serious fitness enthusiasts who want the full experience.",
+      "features": [
+        "Everything in Standard Plan",
+        "Unlimited personal training sessions",
+        "Nutrition coaching",
+        "24/7 gym access",
+        "Priority booking for classes",
+        "2 guest passes/month"
+      ]
+    }
+  ]
+  

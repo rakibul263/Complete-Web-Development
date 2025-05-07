@@ -1,0 +1,73 @@
+[
+    {
+      "student_id": 1,
+      "name": "Alice",
+      "Math": 85,
+      "Science": 78,
+      "English": 92
+    },
+    {
+      "student_id": 2,
+      "name": "Bob",
+      "Math": 74,
+      "Science": 81,
+      "English": 69
+    },
+    {
+      "student_id": 3,
+      "name": "Charlie",
+      "Math": 90,
+      "Science": 88,
+      "English": 84
+    },
+    {
+      "student_id": 4,
+      "name": "Diana",
+      "Math": 67,
+      "Science": 73,
+      "English": 77
+    },
+    {
+      "student_id": 5,
+      "name": "Ethan",
+      "Math": 82,
+      "Science": 79,
+      "English": 85
+    },
+    {
+      "student_id": 6,
+      "name": "Fiona",
+      "Math": 95,
+      "Science": 91,
+      "English": 89
+    },
+    {
+      "student_id": 7,
+      "name": "George",
+      "Math": 76,
+      "Science": 84,
+      "English": 72
+    },
+    {
+      "student_id": 8,
+      "name": "Hannah",
+      "Math": 88,
+      "Science": 86,
+      "English": 90
+    },
+    {
+      "student_id": 9,
+      "name": "Ian",
+      "Math": 70,
+      "Science": 68,
+      "English": 74
+    },
+    {
+      "student_id": 10,
+      "name": "Julia",
+      "Math": 93,
+      "Science": 89,
+      "English": 95
+    }
+  ]
+  
