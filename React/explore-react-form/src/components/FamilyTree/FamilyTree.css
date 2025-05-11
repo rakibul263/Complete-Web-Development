@@ -1,0 +1,16 @@
+.family-tree div{
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #3d3939;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden; 
+    margin-right: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
