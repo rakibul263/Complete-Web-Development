@@ -1,0 +1,15 @@
+.oldPrice{
+    color: red;
+    text-decoration: line-through;
+}
+.newPrice{
+    color: green;
+    font-weight: bold;
+}
+
+.price{
+    background-color: bisque;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* bottom: 0; */
+}
