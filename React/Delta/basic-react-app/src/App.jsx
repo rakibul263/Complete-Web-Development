@@ -5,6 +5,7 @@ import MsgBox from './MsgBox.jsx'
 import Product from './Product.jsx'
 import Button from './Button.jsx'
 import Form from './Form.jsx'
+import ES6 from './ES6.jsx'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
     <div>
       {/* <ProductTab></ProductTab> */}
       {/* <Button></Button> */}
-      <Form></Form>
+      {/* <Form></Form> */}
+      <ES6></ES6>
     </div>
   )
 }
